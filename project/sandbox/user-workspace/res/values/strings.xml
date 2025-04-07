@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">SecureFile</string>
+    
+    <!-- Activity Titles -->
+    <string name="title_home">Home</string>
+    <string name="title_encrypt">Encrypt File</string>
+    <string name="title_decrypt">Decrypt File</string>
+    <string name="title_about">About Us</string>
+    
+    <!-- Common Strings -->
+    <string name="action_select">Select</string>
+    <string name="action_upload">Upload</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    <string name="action_retry">Retry</string>
+    
+    <!-- Encryption Screen -->
+    <string name="hint_select_file">Select a file to encrypt</string>
+    <string name="btn_encrypt">Encrypt</string>
+    <string name="btn_upload_drive">Upload to Google Drive</string>
+    <string name="status_encrypting">Encrypting file…</string>
+    <string name="status_encrypt_success">File encrypted successfully</string>
+    <string name="status_encrypt_failed">Encryption failed</string>
+    <string name="status_uploading">Uploading to Google Drive…</string>
+    <string name="status_upload_success">Upload completed</string>
+    <string name="status_upload_failed">Upload failed</string>
+    
+    <!-- Decryption Screen -->
+    <string name="hint_select_encrypted_file">Select encrypted file</string>
+    <string name="hint_enter_key">Enter encryption key (optional)</string>
+    <string name="btn_decrypt">Decrypt</string>
+    <string name="status_decrypting">Decrypting file…</string>
+    <string name="status_decrypt_success">File decrypted successfully</string>
+    <string name="status_decrypt_failed">Decryption failed</string>
+    <string name="error_invalid_key">Invalid encryption key</string>
+    <string name="error_file_corrupted">File appears to be corrupted</string>
+    
+    <!-- About Screen -->
+    <string name="about_app_description">Secure File Encryption provides military-grade protection for your files using AES-256 encryption with RSA key protection.</string>
+    <string name="about_usage_instructions">1. Select a file to encrypt\n2. The app generates a secure encryption key\n3. Optionally upload the encrypted file to Google Drive\n4. To decrypt, select the encrypted file and provide the key</string>
+    <string name="about_security_notice">All encryption/decryption happens on your device. The encryption keys never leave your device unencrypted.</string>
+    <string name="about_developer">Developed by SecureFile Team</string>
+    
+    <!-- Error Messages -->
+    <string name="error_permission_denied">Storage permission required</string>
+    <string name="error_file_not_found">File not found</string>
+    <string name="error_network">Network connection required</string>
+    <string name="error_biometric">Biometric authentication required</string>
+    
+    <!-- Google Drive -->
+    <string name="drive_sign_in">Sign in to Google Drive</string>
+    <string name="drive_sign_out">Sign out</string>
+    <string name="drive_account">Google Account</string>
+</resources>
